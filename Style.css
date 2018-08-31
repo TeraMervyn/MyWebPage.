@@ -1,0 +1,259 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+.site-wrapper{
+    width: 100%;
+    height: 90%;
+    background-image: url("Stock/bck0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f7f7f7;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+h2{
+    text-transform: none;
+}
+
+.navbar-nav li a{
+    font-size: 0.8em;
+    margin: 0px 10px;
+    color: #f7f7f7 !important;
+}
+
+.site-title{
+    text-align: center;
+    margin-top: 7%;
+    height: 74vh;
+
+}
+
+.title-text{
+    width: 50vw;
+    height: 5vh;
+    font-size: 0.8%;
+    color: #f6f8ff;
+}
+
+.btn-sub1{
+    font-family: "Patua One";
+    border: 1px solid #ef233c;
+    background-color: #edf2f4;
+    color: #ef233c;
+    border-radius: 3px;
+    padding: 0.7em 1em;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.btn-sub2{
+    font-family: "Patua One";
+    border: 1px solid #ef233c;
+    background-color: #edf2f4;
+    color: chocolate;
+    border-radius: 3px; 
+    padding: 0.7em 1em;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.btn-sub3{
+    font-family: "Patua One";
+    border: 1px solid #ef233c;
+    background-color: #edf2f4;
+    color: chocolate;
+    border-radius: 3px; 
+    padding: 0.7em 1em;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.btn-sub4{
+    font-family: "Patua One";
+    border: 1px solid #ef233c;
+    background-color: #edf2f4;
+    color: chocolate;
+    border-radius: 3px; 
+    padding: 0.7em 1em;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.site-title i{
+    padding-left: 0.3em;
+}
+
+/* Content-1 */
+
+.content-1 .col-md-12 h6{
+    font-size: 10px;
+    color: #ef233c
+}
+
+.content-1 .col-md-12 .title-border{
+    content: "";
+    width:30%;
+    height: 2px;
+    display: block;
+    background-color: #ef233c;
+    border-radius: 50%;
+    margin: 1%;
+    margin-left: 35%; 
+}
+
+.content-1 .col-md-12 p{
+    font-size: 11px;
+    color: #3f494c;
+
+}
+.content-1 .curcle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 9vw;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(63, 73, 76, 0.205);
+    color: #ef233c;
+    transition: all 200ms ease;
+
+}
+
+.content-1 .description a{
+    text-decoration: none;
+}
+
+.content-1 .description p{
+    font-size: 12px;
+}
+
+/* ******************************** */
+
+/* content-2 */
+
+.content-2 .row .col-1{
+    background-image: url("Stock/bck1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.content-2 .col-md-6 p{
+    font-size: 20px;    
+}
+
+.content-2 .progress-bars{
+    margin-bottom: 12vw;
+}
+
+.progress .pro-1, .pro-2, .pro-3{
+    width: 0%; 
+    transition: all 10s ease;
+
+}
+
+.content-5 .curcle{
+    border-radius: 100px; 
+    width: 35%;
+    padding-top: 35px;
+    position: relative;
+    z-index: 60;
+}
+
+.content-5 .avatar span::after{
+    content: "";
+    width: 100%;
+    height: 100px;
+    background-color: #edf2f4;
+    position: absolute;
+    display: block;
+    top: 3px;
+    z-index: 60;
+}
+
+.content-5 .me .desc .info{
+    padding: 8%;
+    font-size: 14px;
+}
+
+.content-5 .social-icons{
+    background-color: #edf2f4;
+    padding: 4%;
+}
+
+.content-5 .social-icons span{
+    border: 1px solid rgba(123, 123, 123, 0.2);
+    padding: 4px 8px;
+    border-radius: 100px;
+    transition: all 500s ease;
+}
+
+
+/* ******************************** */
+
+/* *********************************** */
+/* Footer */
+footer{
+    background-color: black;
+    padding-top: 4%;
+    margin: 0px;
+    position: relative;
+}
+
+footer span{
+    padding: 0.3em 0.7em;
+    color: white;
+    background-color: #242423;
+    border-radius: 50%;
+    margin: 13px 3px;
+    transition: all 500ms ease;
+}
+
+footer p{
+    margin: 0px;
+    color: #3f494c;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+footer .top a{
+    position: absolute;
+    right: 2%;
+    top: 69%;
+    color: #3f494c;
+    transition: all 500ms ease;
+}
+/*
+.wrapper{
+    display: grid;
+    
+}
+
+.wrapper > div{
+    background: #eee;
+    grid-template-columns: 70% 30%;
+    padding: 4em;
+    
+}
+
+.wrapper > div:nth-child(odd){
+    background: #ddd;
+}
+
+.wrapper .social-icons2{
+    background-color: #edf2f4;
+    padding: 4%;
+    z-index: 60;
+}
+
+.wrapper .social-icons2 span{
+    border: 1px solid rgba(123, 123, 123, 0.2);
+    padding: 4px 8px;
+    border-radius: 100px;
+    transition: all 500s ease;
+}
+*/
+
