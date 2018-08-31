@@ -1,0 +1,13 @@
+/* This is the file used for all the animations in this project */
+/* ***************************** */
+/* Footer */
+
+footer span:hover{
+    color: #3f494c;
+    background-color: white; 
+
+}
+
+.top a:hover{
+    color: #f7f7f7; 
+}
